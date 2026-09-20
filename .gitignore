@@ -12,7 +12,7 @@ Qwen3-0.6B/
 *.pth
 
 # 训练输出
-output/
+#output/
 checkpoints/
 
 # 数据集（可选，如果数据敏感或者太大就忽略）
