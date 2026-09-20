@@ -44,5 +44,4 @@ with open(INPUT_FILE, "r", encoding="utf-8") as fin, \
 
         fout.write(json.dumps(chatml, ensure_ascii=False) + "\n")
         count += 1
-
 print(f"转换完成，共写入 {count} 条数据到 {OUTPUT_FILE}")

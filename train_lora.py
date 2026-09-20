@@ -120,7 +120,6 @@ training_args = TrainingArguments(
     bf16=True,
     optim="paged_adamw_8bit",            # 8bit 优化器省显存
     report_to="none",
-    overwrite_output_dir=True,
 )
 
 data_collator = DataCollatorForLanguageModeling(
