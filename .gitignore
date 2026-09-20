@@ -1,0 +1,28 @@
+# 虚拟环境
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 模型权重（非常大，绝不能上传）
+Qwen3-0.6B/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# 训练输出
+output/
+checkpoints/
+
+# 数据集（可选，如果数据敏感或者太大就忽略）
+# data/*.jsonl
+# data/*.txt
+
+# IDE
+.vscode/
+.idea/
+
+# 系统
+.DS_Store
+Thumbs.db
